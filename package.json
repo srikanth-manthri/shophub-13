@@ -1,0 +1,43 @@
+{
+  "name": "shophub",
+  "version": "1.0.0",
+  "description": "ShopHub is a demo e-commerce web app built using React.",
+  "keywords": [
+    "reactjs",
+    "ecommerce",
+    "react"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.35",
+    "@fortawesome/free-regular-svg-icons": "5.15.3",
+    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/react-fontawesome": "0.1.14",
+    "@stripe/react-stripe-js": "^1.10.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "handle-errors": "^1.0.0",
+    "history": "^5.3.0",
+    "install": "^0.13.0",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

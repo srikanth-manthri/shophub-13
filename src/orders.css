@@ -1,0 +1,66 @@
+.myaccount-wrapper{
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+  
+  table {
+    margin:1rem 0 4rem 0;
+    border-spacing: 1rem;
+    font-size:1.3rem;
+    flex:1 1 50%;
+  }
+  
+  table caption {
+    font-size: 2rem;
+    font-weight: 600;
+  margin:1rem 0 1rem 0;
+  }
+  
+  table .actions {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: none;
+  }
+  
+  table .actions .info{
+    font-size: 2rem;
+  color:orange;
+  }
+  table .actions .delete{
+    font-size: 2rem;
+  color:red;
+  }
+  
+  table,
+  td,
+  tr,
+  th {
+    border: 0.2rem inset rgb(230, 129, 129);
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: left;
+  }
+  tr:nth-child(even) {
+    background: #f8d4bd;
+  }
+  
+  
+  .user-profile-wrapper {
+    /* flex:1 1 30rem; */
+  }
+  .user-profile-wrapper h4{
+  margin-bottom: 1rem;
+  }
+  
+  
+  .cart-item-qty > p{
+  padding-right: 1rem;
+  font-size: 2rem;
+  }
